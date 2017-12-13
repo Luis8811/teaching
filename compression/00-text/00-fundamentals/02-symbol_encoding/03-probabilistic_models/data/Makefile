@@ -65,7 +65,7 @@ EOF
 	pdf2svg $*.pdf $*.svg
 
 %.png:	%.svg
-	convert -density 100 $*.svg $*.png
+	convert -density 300 $*.svg $*.png
 
 # Original files
 FIGs := $(wildcard *.fig)
